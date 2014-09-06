@@ -47,6 +47,7 @@ li {
 	/*background: #47A841;*/
 	/*background: #3AC46B;*/
 	background: rgba(58, 196, 107, .8);
+	/*background: rgba(66, 65, 81, .7);*/
 	padding: 10px;
 
 }
@@ -120,7 +121,7 @@ a {
 
 a:link{
 	text-decoration: none;
-	color: #9CDEF7;
+	color: white;
 }
 
 a:hover {
