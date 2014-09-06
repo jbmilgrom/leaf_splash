@@ -1,3 +1,8 @@
+@import url(./fonts/opensans_light_macroman.css);
+@import url(./fonts/opensans_regular_macroman.css);
+@import url(./fonts/opensans_semibold_macroman.css);
+@import url(./fonts/learningcurvepro_regular_macroman.css);
+
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -26,15 +31,101 @@ img {
 }
 
 ul {
-	width: 75%;
+	width: 60%;
 	/*position: relative;*/
-	margin: 100px auto;	
+	margin: 25px auto;	
 	text-align: center;
 	list-style: none;
 	padding: 1px;
+	font-family: 'open_sanssemibold';
+	color: white;
 }
 
 li {
-	width: 100%;
-	margin: 20px;
+	width: 90%;
+	margin: 20px auto;
+	/*background: #47A841;*/
+	/*background: #3AC46B;*/
+	background: rgba(58, 196, 107, .8);
+	padding: 10px;
+
 }
+
+
+#title {
+	font-size: 150px;
+	letter-spacing: 5px;
+	padding: 0 10px 0 10px;
+	margin-bottom: 0;
+}
+
+span#f {
+	font-size: 230px;
+}
+
+#desc {
+	font-size: 35px;
+	font-family: 'open_sanssemibold';
+	/*background: rgba(58, 196, 107, 1);*/
+	margin-top: 0;
+	/*margin-bottom: 10px;*/
+	/*width: 44%;*/
+	/*margin: 20px;*/
+	/*padding: 1px 1px 1px 10px; */
+	padding-bottom: 20px;
+}
+
+/*span#content {
+	font-size: 50px;
+}*/
+span#discovery {
+	/*color: #485C54;*/
+	/*color: #1E552D;*/
+	/*color: #01ABEC;*/
+	color: #424151;
+}
+
+span#storage {
+	/*color: #508B75;*/
+	/*color: #9EE5CD;*/
+	/*color: #50C6F2;*/
+	color: #5B5B5B;
+	color:#428bca;
+}
+
+span#sharing {
+	/*color: #6FB59C;*/
+	color: #9CDEF7;
+	/*color: #9EE5CD;*/
+	/*color: #7AD630;*/
+	/*color: #AFE683;*/
+	/*color: #FFEE00;*/
+	/*color: #ACACAC;*/
+}
+
+a {
+	font-size: 45px;
+	width: 30%;
+	margin: 20px auto;
+	margin-top: 75px;
+	background: #428bca;
+	color: white;
+		/*border: 4px solid white;*/
+	border-radius: 8px;
+	display: list-item;
+	padding: 10px;
+	border: solid 3px rgba(255, 255, 255, 0);
+}
+
+
+a:link{
+	text-decoration: none;
+	color: #9CDEF7;
+}
+
+a:hover {
+	color: white;
+	border: 3px solid white;
+}
+
+
